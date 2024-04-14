@@ -5,7 +5,7 @@ sequenceDiagram
     participant server
     
     Note right of user: The user writes the website <br> on the browser and press enter
-    user->>browser: https://studies.cs.helsinki.fi/exampleapp/spa
+    user-)browser: https://studies.cs.helsinki.fi/exampleapp/spa
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
